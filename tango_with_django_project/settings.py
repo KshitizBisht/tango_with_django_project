@@ -128,3 +128,9 @@ STATIC_URL = '/static/'
 #Media file hosting
 MEDIA_ROOT=MEDIA_DIR
 MEDIA_URL='/media/'
+
+#Login url
+LOGIN_URL='/rango/login/'
+
+#Boolean
+SESSION_EXPIRE_AT_BROWSER_CLOSE=True
